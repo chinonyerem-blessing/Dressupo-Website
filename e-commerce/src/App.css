@@ -1361,16 +1361,44 @@
 
   }
 
+  
   .coloo {
-    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .col{
+    text-align: center;
   }
 
   .sizee {
-    margin-left: 20px;
+    display: flex;
+    justify-content: center;
   }
+  
 
   .zie {
-    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .myImage {
+    display: block;
+  }
+
+  .diorImg {
+    width: 390px;
+  }
+
+  .diorImg1 {
+    width: 100%;
+  }
+  .imgbox{
+    display:flex;
+    justify-content: center;
+  }
+  .myThum{
+    display:flex;
+    justify-content: center;
   }
 
   .myImage {
@@ -1437,7 +1465,10 @@
   .myImage {
     padding-bottom: 20px;
   }
-
+   .chartBx{
+    display: flex;
+    justify-content:center;
+   }
   .customers h3 {
     font-size: 30px;
   }
@@ -1724,7 +1755,7 @@
 
   .color-swatch {
     width: 60px;
-    margin-right: 10px;
+    margin-left: 20px;
   }
 
   .sizess {
@@ -1749,15 +1780,22 @@
   }
 
   .coloo {
-    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .col{
+    text-align: center;
   }
 
   .sizee {
-    margin-left: 20px;
+    display: flex;
+    justify-content: center;
   }
+  
 
   .zie {
-    margin-left: 20px;
+    display: flex;
+    justify-content: center;
   }
 
   .myImage {
@@ -1770,6 +1808,14 @@
 
   .diorImg1 {
     width: 100%;
+  }
+  .imgbox{
+    display:flex;
+    justify-content: center;
+  }
+  .myThum{
+    display:flex;
+    justify-content: center;
   }
 
   .collect1 {
@@ -2138,17 +2184,45 @@
 
   }
 
-  .coloo {
-    margin-left: 20px;
+ .coloo {
+    display: flex;
+    justify-content: center;
+  }
+  .col{
+    text-align: center;
   }
 
   .sizee {
-    margin-left: 20px;
+    display: flex;
+    justify-content: center;
   }
+  
 
   .zie {
-    margin-left: 20px;
+    display: flex;
+    justify-content: center;
   }
+
+  .myImage {
+    display: block;
+  }
+
+  .diorImg {
+    width: 390px;
+  }
+
+  .diorImg1 {
+    width: 100%;
+  }
+  .imgbox{
+    display:flex;
+    justify-content: center;
+  }
+  .myThum{
+    display:flex;
+    justify-content: center;
+  }
+
 
   .myImage {
     display: block;

@@ -93,9 +93,10 @@ function Product() {
     <div className="booxCart">
       <div className="chartBox">
         <div className="boxxcart">
-          <div className="chartBox">
+          <div className="chartBx">
             <div>
               {/* Main product image and navigation arrows */}
+              
               <div className="imgbox">
                 <div>
                   <img data-aos="fade-up" data-aos-delay="300" data-aos-duration="1200" className="mainImage"
@@ -119,6 +120,7 @@ function Product() {
               </div>
 
               {/* Display product thumbnails */}
+              <div className="myThum">
               <div className="thumbn">
                 {filteredProducts.map((product) => (
                   <img data-aos="fade-up" data-aos-delay="300" data-aos-duration="1200"
@@ -131,7 +133,7 @@ function Product() {
                   />
                 ))}
               </div>
-
+</div>
             </div>
           </div>
           <div >
