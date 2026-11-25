@@ -23,7 +23,7 @@ function Testimonial() {
 
         {/* Display testimonials using Swiper */}
         <div>
-          <Swiper data-aos="fade-up" data-aos-delay="300" data-aos-duration="1200"
+          <Swiper 
             modules={[Navigation, Pagination]}
             navigation
             pagination={{ clickable: true }}
@@ -42,9 +42,9 @@ function Testimonial() {
           >
             {/* Loop through all testimonials */}
             {testimonials.map((item) => (
-              <SwiperSlide data-aos="fade-up" data-aos-delay="300" data-aos-duration="1200" key={item.id}>
+              <SwiperSlide  key={item.id}>
                 <div className="myTestContainer1">
-                  <div data-aos="fade-up" data-aos-delay="300" data-aos-duration="1200" className="myTestContainer">
+                  <div  className="myTestContainer">
 
                     <p data-aos="fade-up" data-aos-delay="300" data-aos-duration="1200" className="item1">{item.review}</p>
 
